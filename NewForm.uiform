@@ -1,0 +1,65 @@
+﻿{
+  "Metadata": {
+    "Id": "e254928b-ca12-4310-94a7-b5e198b16828",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "NewForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Nombre del job",
+        "tableView": true,
+        "key": "nombreDelJob",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Ruta del job",
+        "tableView": true,
+        "key": "rutaDelJob",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Proyecto",
+        "optionsLabelPosition": "right",
+        "inline": false,
+        "tableView": false,
+        "values": [
+          {
+            "label": "Interfaces",
+            "value": "ESTOESINTERFACES",
+            "shortcut": ""
+          },
+          {
+            "label": "EDW",
+            "value": "ESTOESEDW",
+            "shortcut": ""
+          },
+          {
+            "label": "DTM_CM",
+            "value": "ESTOESCAMPAÑAS",
+            "shortcut": ""
+          }
+        ],
+        "key": "proyecto",
+        "type": "radio",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
